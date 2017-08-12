@@ -1,0 +1,51 @@
+{
+  "name": "ya-enum",
+  "version": "0.1.0",
+  "description": "Yet another js enum implementation",
+  "main": "lib/library.js",
+  "scripts": {
+    "build": "webpack --env build",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ps-aux/js-enum.git"
+  },
+  "keywords": [
+    "enum",
+    "ya"
+  ],
+  "author": "ps-aux",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/ps-aux/js-enum/issues"
+  },
+  "homepage": "https://github.com/ps-aux/js-enum#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
+    "babel-plugin-undeclared-variables-check": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "eslint": "^4.4.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1",
+    "yargs": "^8.0.2"
+  },
+  "files": [
+    "lib/"
+  ]
+}
