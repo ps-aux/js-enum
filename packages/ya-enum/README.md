@@ -1,0 +1,1 @@
+Since there is no canonical library for enums in js here is my two cents :)
