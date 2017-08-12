@@ -1,8 +1,8 @@
 {
-  "name": "ya-enum",
-  "version": "0.2.1",
-  "description": "Yet another js enum implementation",
-  "main": "lib/ya-enum.js",
+  "name": "ya-logger",
+  "version": "0.2.0",
+  "description": "Yet another js logger",
+  "main": "lib/ya-logger.js",
   "scripts": {
     "build": "webpack --env build",
     "dev": "webpack --progress --colors --watch --env dev",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/ps-aux/js-general-modules.git"
   },
   "keywords": [
-    "enum",
+    "logger",
     "ya"
   ],
   "author": "ps-aux",
