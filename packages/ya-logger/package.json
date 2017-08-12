@@ -1,6 +1,6 @@
 {
   "name": "ya-logger",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Yet another js logger",
   "main": "lib/ya-logger.js",
   "scripts": {
