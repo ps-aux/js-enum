@@ -1,0 +1,11 @@
+extends: standard
+parser: babel-eslint
+
+ecmaFeatures:
+  impliedStrict: true
+
+rules:
+  curly: off
+  padded-blocks: off
+  indent: off
+  no-trailing-spaces: off # Bcs of arrow functions in classes
